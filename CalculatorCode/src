@@ -1,0 +1,54 @@
+import java.util.Scanner;
+
+public class CalculatorTest {
+	public static void main(String[] args) {
+	    boolean cont = true;
+	    float val1, val2;
+	    String op, y, n;
+	    char oper, yes, no;
+
+	    while (cont) {
+	    System.out.println("Welcome to consule calculator");
+	    Scanner keyboard = new Scanner(System.in);
+	    System.out.println("Input the first number you want to compute: ");
+	    val1 = keyboard.nextFloat();
+	    
+	    System.out.println("What operator do you want to use?");
+	    op = keyboard.next();
+	    oper = op.charAt(0);
+	    switch(oper) {
+	      case '+':
+	        System.out.println("Enter the second number you want to compute: ");
+	        val2 = keyboard.nextFloat();
+	        System.out.println("Your answer is: " + (val1 + val2));
+	        break;
+	      case '-':
+	        System.out.println("Enter the second number you want to compute: ");
+	        val2 = keyboard.nextFloat();
+	        System.out.println("Your answer is: " + (val1 - val2));
+	        break;
+	      case '*':
+	        System.out.println("Enter the second number you want to compute: ");
+	        val2 = keyboard.nextFloat();
+	        System.out.println("Your answer is: " + (val1 * val2));
+	        break;
+	      case '/':
+	        System.out.println("Enter the second number you want to compute: ");
+	        val2 = keyboard.nextFloat();
+	        System.out.println("Your answer is: " + (val1 / val2));
+	        break;
+	    }
+	  
+	  System.out.println("Would you like to calculate again? y/n?");
+	  y = keyboard.next();
+	  yes = y.charAt(0);
+	  n = keyboard.next();
+	  no = n.charAt(0);
+	    if (yes == 'y') {
+	      cont = true;
+	    } else {
+	      cont = false;
+	    }
+	  }
+	  }
+}
