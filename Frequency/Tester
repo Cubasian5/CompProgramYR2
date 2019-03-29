@@ -1,0 +1,28 @@
+import java.util.Scanner;
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub1
+		
+		Double str1, str2, str3;
+		Scanner s = new Scanner(System.in);
+		System.out.println("Please input your reasonant frequency: ");
+		str1 = s.nextDouble();
+		System.out.println("Please input your bandwidth: ");
+		str2 = s.nextDouble();
+		System.out.println("Please input the gain at the resonant frequency: ");
+		str3 = s.nextDouble();
+		
+		ResonantCircuit obj = new ResonantCircuit(str1, str2, str3);
+		ParallelResonantCircuit obj2 = new ParallelResonantCircuit(str1,str2,str3,str3,str2,str1);
+		SeriesResonantCircuit obj3 = new SeriesResonantCircuit(str1,str2,str3,str3,str2,str1);
+		
+		System.out.println("");
+		obj.display();
+		System.out.println("");
+		obj2.display();
+		System.out.println("");
+		obj3.display();
+	}
+
+}
