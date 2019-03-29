@@ -18,10 +18,13 @@ public class Test {
 		SeriesResonantCircuit obj3 = new SeriesResonantCircuit(str1,str2,str3,str3,str2,str1);
 		
 		System.out.println("");
+		System.out.println("Your numbers for Resonant Frequency, Bandwidth, Gain at the Resonant Frequency");
 		obj.display();
 		System.out.println("");
+		System.out.println("Your numbers for Resonant Frequency, Bandwidth, Gain at the Resonant Frequency for your \nParallel Resonant Circuit");
 		obj2.display();
 		System.out.println("");
+		System.out.println("Your numbers for Resonant Frequency, Bandwidth, Gain at the Resonant Frequency for your \nSeries Resonant Circuit");
 		obj3.display();
 	}
 
