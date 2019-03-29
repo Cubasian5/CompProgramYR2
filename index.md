@@ -1,6 +1,6 @@
 # Nicholas Alexander Gonzalez's Programming Portfolio
 
-## Computer Programming 1 projects from Skyline High School in the 2017-2018 school year
+## Computer Programming 2 projects from Skyline High School in the 2018-2019 school year
 
 ---
 
@@ -44,8 +44,12 @@ The purpose of this is to take your Resonant Frequency, Bandwidth, and Gain at t
 
 ## Employee Database
 
-the purpose of this code is to take Information such as: First and Last Name, Gender, DOB, Hire Date, last 4 digits of Social Security Number, and ID number. This can be used for employess of any company woldwide.
+The purpose of this code is to take Information such as: First and Last Name, Gender, DOB, Hire Date, last 4 digits of Social Security Number, and ID number. This can be used for employess of any company woldwide.
 
 + [Code for Employee](https://github.com/Cubasian5/CompProgramYR2/blob/master/Employee/Employee)
 + [Code for Main Method](https://github.com/Cubasian5/CompProgramYR2/blob/master/Employee/Tester)
 + ![Employee Image](https://github.com/Cubasian5/CompProgramYR2/blob/master/Employee/Employee.png "Example of the Running Code")
+
+## Weekend Mood Application
+
+The purpose of this code is to help you and your friends, wife, girlfriend, whomever to plan out activities for the weekend or anytime. It takes user input for the different activities that you want to do and letts you vote on them.
