@@ -1,0 +1,28 @@
+public class EmployeeTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Employee obj = new Employee();
+		Employee obj2 = new Employee();
+		
+		obj.setFName(" Gabe ");
+		obj.setLName(" Rosa ");
+		obj.setActive(true);
+		obj.setDOB(" 3/3/01 ");
+		obj.setGender(" Male ");
+		obj.setHireDate(" 11/20/18 ");
+		obj.setSSN(" 000000000 ");
+		obj.setId(0);
+		obj2.setFName(" Alex ");
+		obj2.setLName(" Forseberg ");
+		obj2.setActive(true);
+		obj2.setDOB(" 5/21/01 ");
+		obj2.setGender(" Male ");
+		obj2.setHireDate(" 11/20/18 ");
+		obj2.setSSN(" 000000001 ");
+		obj2.setId(1);
+		System.out.println(obj.getFName() + obj.getLName( )+obj.getGender( )+obj.getDOB( )+obj.getHireDate( )+obj.getSSN( )+obj.getId());
+		System.out.println(obj2.getFName() + obj2.getLName( )+obj2.getGender( )+obj2.getDOB( )+obj2.getHireDate( )+obj2.getSSN( )+obj2.getId());
+	}
+
+}
