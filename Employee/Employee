@@ -1,0 +1,87 @@
+public class Employee {
+
+	private String FName, LName, Gender, DOB, HireDate, SSN;
+	boolean active;
+	int id  = 0000000;
+	
+	public Employee()
+	{
+		FName = "";
+		LName = "";
+		Gender = "";
+		DOB = "";
+		HireDate = "";
+		SSN = "";
+		active = true;
+		//id = id++;
+		
+		
+	}
+
+	public String getFName() {
+		return FName;
+	}
+
+	public void setFName(String fName) {
+		FName = fName;
+	}
+
+	public String getLName() {
+		return LName;
+	}
+
+	public void setLName(String lName) {
+		LName = lName;
+	}
+
+	public String getGender() {
+		return Gender;
+	}
+
+	public void setGender(String gender) {
+		Gender = gender;
+	}
+
+	public String getDOB() {
+		return DOB;
+	}
+
+	public void setDOB(String dOB) {
+		DOB = dOB;
+	}
+
+	public String getHireDate() {
+		return HireDate;
+	}
+
+	public void setHireDate(String hireDate) {
+		HireDate = hireDate;
+	}
+
+	public String getSSN() {
+		return SSN;
+	}
+
+	public void setSSN(String sSN) {
+		sSN = sSN.substring(6, 11);
+		SSN = sSN;
+	}
+
+	public boolean isActive() {
+		return active;
+	}
+
+	public void setActive(boolean active) {
+		this.active = active;
+	}
+
+	public int getId() {
+		id++;
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+	
+}
