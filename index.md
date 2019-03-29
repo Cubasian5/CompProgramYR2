@@ -31,3 +31,14 @@ The purpose of this is to take any 10 digit number and convert it as well as sor
 
 + [Code](https://github.com/Cubasian5/CompProgramYR2/blob/master/Phonenumber/src)
 + ![Phonenumber Image](https://github.com/Cubasian5/CompProgramYR2/blob/master/Phonenumber/Phonenumber.png "Example of the Running Code")
+
+## Frequency Calculator
+
+The purpose of this is to take your Resonant Frequency, Bandwidth, and Gain at the Resonant Frquency and show you your calculations made for each when it comes to either a Parallel Resonant Circuit or a Series Resonant Circuit.
+
++ [Code for Series Resonant Circuit](https://github.com/Cubasian5/CompProgramYR2/blob/master/Frequency/SRC)
++ [Code for Parallel Resonant Circuit](https://github.com/Cubasian5/CompProgramYR2/blob/master/Frequency/PRC)
++ [Code for Resonant Circuit](https://github.com/Cubasian5/CompProgramYR2/blob/master/Frequency/RC)
++ [Code for Main Method](https://github.com/Cubasian5/CompProgramYR2/blob/master/Frequency/Tester)
++ ![Phonenumber Image](https://github.com/Cubasian5/CompProgramYR2/blob/master/Frequency/Freqency.png "Example of the Running Code")
+
