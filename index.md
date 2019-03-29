@@ -24,3 +24,10 @@ The purpose of this is to just caluclate 2 numbers with the 4 main funtions: add
 
 + [Code](https://github.com/Cubasian5/CompProgramYR2/blob/master/CalculatorCode/src)
 + ![Calulator Image](https://github.com/Cubasian5/CompProgramYR2/blob/master/CalculatorCode/Calculator.png "Example of the Running Code")
+
+## Phonenumber Sorter
+
+The purpose of this is to take any 10 digit number and convert it as well as sort it into a phone number.
+
++ [Code](https://github.com/Cubasian5/CompProgramYR2/blob/master/Phonenumber/src)
++ ![Phonenumber Image](https://github.com/Cubasian5/CompProgramYR2/blob/master/Phonenumber/Phonenumber.png "Example of the Running Code")
