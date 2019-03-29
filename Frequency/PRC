@@ -33,9 +33,6 @@ public class ParallelResonantCircuit extends ResonantCircuit
 	}
 	public void display()
 	{
-		System.out.println(rfrequency + "");
-		System.out.println(bandwidth + "");
-		System.out.println(grfrequency + "");
 		System.out.println(bigR + "");
 		System.out.println(bigC + "");
 		System.out.println(bigL + "");
