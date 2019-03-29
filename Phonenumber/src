@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String sr1, sr2,sr3,sr4;
+		Scanner keyboard = new Scanner(System.in);
+		System.out.println("Please enter the numbers: ");
+		sr1 = keyboard.next();
+		sr2 = sr1.substring(0,3);
+		sr3 = sr1.substring(3,6);
+		sr4 = sr1.substring(6,10);
+		System.out.println("The phone number is (" + sr2 + ")-" + sr3 + "-" + sr4);
+		
+	}
+
+}
