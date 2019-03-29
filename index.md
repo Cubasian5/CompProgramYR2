@@ -23,4 +23,4 @@
 The purpose of this is to just caluclate 2 numbers with the 4 main funtions: addition (+), substraction (-), multiplication (*)* and division (/). Its a fast program that also lets you calulate stuff again by just saying yes or no.
 
 + [Code](https://github.com/Cubasian5/CompProgramYR2/blob/master/CalculatorCode/src)
-+ ![Calulator Image]
++ ![Calulator Image](https://github.com/Cubasian5/CompProgramYR2/blob/master/CalculatorCode/Calculator.png "Example of the Running Code")
