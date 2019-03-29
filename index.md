@@ -40,5 +40,12 @@ The purpose of this is to take your Resonant Frequency, Bandwidth, and Gain at t
 + [Code for Parallel Resonant Circuit](https://github.com/Cubasian5/CompProgramYR2/blob/master/Frequency/PRC)
 + [Code for Resonant Circuit](https://github.com/Cubasian5/CompProgramYR2/blob/master/Frequency/RC)
 + [Code for Main Method](https://github.com/Cubasian5/CompProgramYR2/blob/master/Frequency/Tester)
-+ ![Phonenumber Image](https://github.com/Cubasian5/CompProgramYR2/blob/master/Frequency/Freqency.png "Example of the Running Code")
++ ![Frequency Image](https://github.com/Cubasian5/CompProgramYR2/blob/master/Frequency/Freqency.png "Example of the Running Code")
 
+## Employee Database
+
+the purpose of this code is to take Information such as: First and Last Name, Gender, DOB, Hire Date, last 4 digits of Social Security Number, and ID number. This can be used for employess of any company woldwide.
+
++ [Code for Employee](https://github.com/Cubasian5/CompProgramYR2/blob/master/Employee/Employee)
++ [Code for Main Method](https://github.com/Cubasian5/CompProgramYR2/blob/master/Employee/Tester)
++ ![Employee Image](https://github.com/Cubasian5/CompProgramYR2/blob/master/Employee/Employee.png "Example of the Running Code")
