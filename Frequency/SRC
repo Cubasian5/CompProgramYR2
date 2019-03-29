@@ -1,0 +1,44 @@
+import java.util.Scanner;
+
+public class SeriesResonantCircuit extends ResonantCircuit
+{
+	private double bigR;
+	private double bigL;
+	private double bigC;
+	
+	public SeriesResonantCircuit(double rfrequency, double bandwidth, double grfrequency, double bigR ,double bigC, double bigL)
+	{
+		super(rfrequency, bandwidth, grfrequency);
+		this.setBigR();
+		this.setBigL();
+		this.setBigC();
+	}
+	public double getBigR(Scanner str3) {
+		return bigR;
+	}
+	public void setBigR() {
+		this.bigR = 1/grfrequency;
+	}
+	public double getBigL(Scanner str2) {
+		return bigL;
+	}
+	public void setBigL() {
+		this.bigL = bigR/bandwidth;
+	}
+	public double getBigC(Scanner str1) {
+		return bigC;
+	}
+	public void setBigC() {
+		this.bigL = 1/((rfrequency)*(rfrequency)*bigL);
+	}
+	public void display()
+	{
+		System.out.println(rfrequency + "");
+		System.out.println(bandwidth + "");
+		System.out.println(grfrequency + "");
+		System.out.println(bigR + "");
+		System.out.println(bigL + "");
+		System.out.println(bigC + "");
+		
+	}
+}
