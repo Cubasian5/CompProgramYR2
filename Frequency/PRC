@@ -1,0 +1,44 @@
+import java.util.Scanner;
+
+public class ParallelResonantCircuit extends ResonantCircuit
+{
+	private double bigR;
+	private double bigL;
+	private double bigC;
+	
+	public ParallelResonantCircuit(double rfrequency, double bandwidth, double grfrequency, double bigR ,double bigC, double bigL)
+	{
+		super(rfrequency, bandwidth, grfrequency);
+		this.setBigR();
+		this.setBigC();
+		this.setBigL();
+	}
+	public double getBigR(Scanner str1) {
+		return bigR;
+	}
+	public void setBigR() {
+		this.bigR = this.grfrequency;
+	}
+	public double getBigC(Scanner str2) {
+		return bigC;
+	}
+	public void setBigC() {
+		this.bigC = 1/(bandwidth*bigR);
+	}
+	public double getBigL(Scanner str3) {
+		return bigL;
+	}
+	public void setBigL() {
+		this.bigL = 1/((rfrequency)*(rfrequency)*bigC);
+	}
+	public void display()
+	{
+		System.out.println(rfrequency + "");
+		System.out.println(bandwidth + "");
+		System.out.println(grfrequency + "");
+		System.out.println(bigR + "");
+		System.out.println(bigC + "");
+		System.out.println(bigL + "");
+		
+	}
+}
