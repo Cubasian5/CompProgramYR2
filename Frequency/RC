@@ -1,0 +1,74 @@
+import java.util.Scanner;
+
+public class ResonantCircuit 
+{	
+	double bigR, bigC, bigL;
+	double rfrequency, bandwidth, grfrequency;
+	
+	ResonantCircuit (double rfrequency, double bandwidth, double grfrequency)
+	{
+		this.rfrequency = rfrequency;
+		this.bandwidth = bandwidth;
+		this.grfrequency = grfrequency;
+	}
+	
+	
+	public double getRfrequency(Scanner str1) {
+		return rfrequency;
+	}
+
+	public void setRfrequency(double rfrequency) {
+		this.rfrequency = rfrequency;
+	}
+
+	public double getBandwidth(Scanner str2) {
+		return bandwidth;
+	}
+
+	public void setBandwidth(double bandwidth) {
+		this.bandwidth = bandwidth;
+	}
+
+	public double getGrfrequency(Scanner str3) {
+		return grfrequency;
+	}
+
+	public void setGrfrequency(double grfrequency) {
+		this.grfrequency = grfrequency;
+	}
+	public double getBigR() {
+		return bigR;
+	}
+
+
+	public void setBigR(double bigR) {
+		this.bigR = bigR;
+	}
+
+
+	public double getBigC() {
+		return bigC;
+	}
+
+
+	public void setBigC(double bigC) {
+		this.bigC = bigC;
+	}
+
+
+	public double getBigL() {
+		return bigL;
+	}
+
+
+	public void setBigL(double bigL) {
+		this.bigL = bigL;
+	}
+
+	public void display()
+	{
+		System.out.println(rfrequency + "");
+		System.out.println(bandwidth + "");
+		System.out.println(grfrequency + "");
+	}
+}
