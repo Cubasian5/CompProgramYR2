@@ -52,4 +52,12 @@ The purpose of this code is to take Information such as: First and Last Name, Ge
 
 ## Weekend Mood Application
 
-The purpose of this code is to help you and your friends, wife, girlfriend, whomever to plan out activities for the weekend or anytime. It takes user input for the different activities that you want to do and letts you vote on them.
+The purpose of this code is to help you and your friends, wife, girlfriend, boyfriend, or whomever to plan out activities for the weekend or anytime. It takes user input for the different activities that you want to do and displays them in the boxes which you can then click on. A graph at the bottom keeps track of total votes, time left, and most votes.
+
++ [Code for Entry Point](https://github.com/Cubasian5/CompProgramYR2/blob/master/WeekendMoodApp/Main)
++ [Code for Boxes](https://github.com/Cubasian5/CompProgramYR2/blob/master/WeekendMoodApp/Boxes)
++ [Code for Graph](https://github.com/Cubasian5/CompProgramYR2/blob/master/WeekendMoodApp/Graph)
++ [Code for Score](https://github.com/Cubasian5/CompProgramYR2/blob/master/WeekendMoodApp/Score)
++ [Code for Stopwatch](https://github.com/Cubasian5/CompProgramYR2/blob/master/WeekendMoodApp/Stopwatch)
++ ![Mainscreen Image](https://github.com/Cubasian5/CompProgramYR2/blob/master/WeekendMoodApp/mainscreen.png "Example of the Running Code")
++ ![Votescreen Image](https://github.com/Cubasian5/CompProgramYR2/blob/master/WeekendMoodApp/votescreen.png "Example of the Running Code")
